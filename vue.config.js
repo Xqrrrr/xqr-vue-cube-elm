@@ -1,4 +1,4 @@
-const webpack = require('webpack')
+﻿const webpack = require('webpack')
 const path = require('path')
 const appData = require('./data.json')
 const seller = appData.seller
@@ -47,7 +47,7 @@ module.exports = {
       app.post('/api/post', (req, res) => {
         res.json({
           success: true,
-          data: { name: '肖齐睿', age: 24 }
+          data: { name: '肖齐睿', age: 25 }
         })
       })
     }
