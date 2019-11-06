@@ -47,7 +47,7 @@ module.exports = {
       app.post('/api/post', (req, res) => {
         res.json({
           success: true,
-          data: { name: '肖齐睿123', age: 222222222222222222222222 }
+          data: { name: '肖齐睿123', age: 22222222222222222as223355222222 }
         })
       })
     }
